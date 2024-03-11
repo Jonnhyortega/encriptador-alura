@@ -1,0 +1,189 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/imgs/puerta-con-llave.jpg);
+  background-size: contain;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff2a;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  width: 90%;
+  gap: 2rem;
+}
+
+#btn {
+  width: 50%;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+h1 {
+  color: gold;
+  border: 1px solid rgba(0, 0, 0, 0.383);
+  -webkit-text-stroke-width: 1.5px;
+  font-size: 3rem;
+  -webkit-text-stroke-color: black;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 2px black;
+}
+
+#inputText,
+#outputText {
+  z-index: 1;
+  width: 60%;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* OVERLAY OUTPUT */
+
+#banner {
+  z-index: 2;
+  width: 54%;
+  height: 11rem;
+  background-image: url(/assets/imgs/candado.jpg);
+  background-size: contain;
+  box-shadow: 1px 1px 5px 2px black;
+  position: absolute;
+  top: 32%;
+  left: -100%;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner.closeText {
+  left: 23%;
+  transition: 1s all;
+}
+
+#banner.showText {
+  transition: 1s all;
+  left: -100%;
+}
+
+/* OVERLAY OUTPUT */
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/*PÁGINA SUPERPUESTA */
+
+#overlay {
+  z-index: 4;
+  position: absolute;
+  width: 100%;
+  height: 2500px;
+  background-image: url(/assets/imgs/candado.jpg);
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay-content {
+  background-color: #ffffff74;
+  padding: 5rem;
+  border-radius: 0.1rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#overlay-content p {
+  font-weight: 700;
+}
+
+#close-overlay {
+  background-color: rgba(255, 255, 255, 0.47);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+#close-overlay:hover {
+  background-color: #45a049;
+  box-shadow: 1px 1px 5px 1px black;
+}
+
+/* PAGINA SUPERPUESTA */
+
+/* footer */
+#contentFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+#contentFooter span {
+  font-weight: 900;
+  color: gold;
+  font-size: 2rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#redes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#footerLinks {
+  padding: 0.6rem;
+  border-radius: 1rem;
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.675);
+  font-size: 2rem;
+}
+
+#footerLinks:hover {
+  box-shadow: 1px 1px 5px 5px white;
+}
+/* footer */
