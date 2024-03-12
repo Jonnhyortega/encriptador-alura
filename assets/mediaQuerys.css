@@ -1,0 +1,323 @@
+/* MEDIA QUERYS */
+
+/* Ipad mini */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 25rem 0;
+  }
+
+  #overlay {
+    width: 100%;
+  }
+
+  #overlay-content {
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 20%;
+    width: 60%;
+  }
+  #banner.closeText {
+    left: 21%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* Iphone XR */
+@media screen and (min-width: 414px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 17rem 0 !important;
+  }
+
+  #overlay {
+    width: 100%;
+  }
+
+  #overlay-content {
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 15% !important;
+    width: 93.5% !important;
+  }
+  #banner.closeText {
+    left: 3% !important;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* pixel 7 */
+@media screen and (min-width: 412px) and (max-width: 915px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 45rem 0 !important;
+  }
+  #overlay {
+    width: 100%;
+  }
+
+  #overlay-content {
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 10% !important;
+    width: 60% !important;
+  }
+  #banner.closeText {
+    left: 21% !important;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* iPhone 12 pro */
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 15rem 0 !important;
+  }
+  #overlay {
+    width: 100%;
+    height: 1050px;
+    align-items: flex-start;
+  }
+
+  #overlay-content {
+    margin: 50% auto;
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 19% !important;
+    width: 94% !important;
+  }
+
+  #banner.closeText {
+    left: 3% !important;
+  }
+
+  .buttons {
+    gap: 1.5rem;
+  }
+
+  h2,
+  h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* iPhone 14 pro */
+@media screen and (min-width: 430px) and (max-width: 932px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 20rem 0 !important;
+  }
+  #overlay {
+    width: 100%;
+    height: 1050px;
+    align-items: flex-start;
+  }
+
+  #overlay-content {
+    margin: 50% auto;
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 13% !important;
+    width: 94% !important;
+  }
+
+  #banner.closeText {
+    left: 3% !important;
+  }
+
+  .buttons {
+    gap: 1.5rem;
+  }
+
+  h2,
+  h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* Iphone SE */
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 3rem 0;
+  }
+  #overlay {
+    width: 100%;
+    height: 1050px;
+    align-items: flex-start;
+  }
+
+  #overlay-content {
+    margin: 50% auto;
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 24%;
+    width: 76%;
+  }
+  #banner.closeText {
+    left: 14%;
+  }
+
+  .buttons {
+    gap: 1.5rem;
+  }
+
+  h2,
+  h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* Samsungs galaxy s8*/
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0 0 6rem 0;
+  }
+  #overlay {
+    width: 100%;
+    height: 1050px;
+    align-items: flex-start;
+  }
+
+  #overlay-content {
+    margin: 50% auto;
+    padding: 1rem;
+    width: 80%;
+  }
+
+  .container {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  #banner {
+    top: 24%;
+    width: 90%;
+  }
+  #banner.closeText {
+    left: 5%;
+  }
+
+  .buttons {
+    gap: 1.5rem;
+  }
+
+  h2,
+  h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  #inputText,
+  #outputText {
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERYS */
