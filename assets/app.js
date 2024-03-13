@@ -15,7 +15,6 @@ function cerrarPaginaSuperPuesta() {
 function encriptarTexto() {
   let inputText = document.getElementById("inputText").value;
   let outputText = "";
-  let banner = document.getElementById("banner");
 
   for (var i = 0; i < inputText.length; i++) {
     var charCode = inputText.charCodeAt(i);
@@ -27,11 +26,6 @@ function encriptarTexto() {
     outputText += String.fromCharCode(charCode);
   }
 
-  if (banner.classList.contains("showText")) {
-    banner.classList.remove("showText");
-  }
-
-  banner.classList.add("closeText");
   document.getElementById("outputText").value = outputText;
 }
 // Funcion de encriptacion
@@ -43,24 +37,16 @@ function encriptarTexto() {
 // Function to reset everything.
 
 function reset() {
-  let banner = document.getElementById("banner");
-
   let inputText = document.getElementById("inputText");
   inputText.value = "";
 
   let outputText = document.getElementById("outputText");
   outputText.value = "";
 
-  if (banner.classList.contains("closeText")) {
-    banner.classList.remove("closeText");
-    banner.classList.add("showText");
-  } else if (banner.classList.contains("showText")) {
-    banner.classList.remove("showText");
-  }
 }
 
-// Funcion para reiniciar todo.
-// Function to reset everything.
+// Funcion para reiniciar.
+// Function to reset.
 
 // ---------------------------------
 
